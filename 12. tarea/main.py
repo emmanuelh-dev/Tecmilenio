@@ -49,7 +49,7 @@ def museo():
     total_a_pagar = 0
 
     while True:
-        # Solicitar número de visitantes
+        # Solicitar numero de visitantes
         visitantes = numeros("Ingresa el número de visitantes: ")
         if visitantes <= 0:
             print("El número de visitantes debe ser mayor a cero.")
@@ -61,7 +61,7 @@ def museo():
 
             if edad < 3:
                 print("El visitante no paga boleto por ser menor de 3 años.")
-                continue  # Saltar a la siguiente iteración, ya que no paga
+                continue  # Saltar a la siguiente iteracinn, ya que no paga
 
             # Determinar precio base según la edad
             if edad < 18:

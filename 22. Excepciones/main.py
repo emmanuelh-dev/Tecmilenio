@@ -7,7 +7,7 @@
 
 dict = {
   "name": "Juan",
-  # "age": 18,
+  "age": 18,
 }
 
 try:
